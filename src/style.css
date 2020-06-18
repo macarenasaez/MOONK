@@ -60,6 +60,7 @@ a{
     text-decoration: none;
 
 }
+
 /* END/GENERAL*/
 
 /*Start/Header*/
@@ -287,10 +288,7 @@ header,.header-container{
     font-size: 14px;
     font-weight: 300px;
 }
-.service-cta{
-    width: 100%;
-    background-color: #641056;
-}
+
 .collapsible:after{
     content: '\02795'; /* Carácter  para el signo "más"(+)*/
         font-size: 13px;
@@ -301,13 +299,16 @@ header,.header-container{
 }
 .active:after{
     content: "\2796";/*Carácter  para el signo "menos"(-)*/
-
-    
+ 
+}
+.service-cta{
+    width: 100%;
+    background-color: #641056;
+    text-align: center;
 }
 .service-cta a{
     width: 100%;
     color: white;
-    font-weight: 300;
 }
 .service-cta a p{
     padding: 25px 0px;
@@ -317,7 +318,7 @@ header,.header-container{
 /*End/service*/
 
 
-/*Start/fag-Desktop*/
+/*Start/fag/Desktop*/
 
 .bannerMain-faq{
     width: 100%;
@@ -625,7 +626,7 @@ footer .footer-container {
 
 @media (max-width: 769px){
 
-    /* START_MOBILE-HEADER */
+    /* START/MOBILE-HEADER */
 
     .burger-icon, .mobile-navbar {
 
@@ -706,7 +707,7 @@ footer .footer-container {
     
     }
 
-    /* END_MOBILE-HEADER */
+    /* END/MOBILE-HEADER */
 
     /* START/MOBILE-FAQ */
        .bannerMain-faq {
@@ -813,67 +814,114 @@ footer .footer-container {
 
     }
 
-    /* END_MOBILE-FOOTER */
+    /* END/MOBILE-FOOTER */
+
+     /* START/MOBILE/SERVICE*/
+
+     .serviceBanner-container {
+
+        height: 200px ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 35px;
+
+    }
+
+    .serviceBanner-container img {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .serviceBanner-container h2 {
+
+        font-size: 14px;
+        line-height: 15px;
+        width: 90%;
+
+    }
+    .serviceMain{
+        max-width: 300px;
+        margin: 25px auto;
+    }
+    .service-desc {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 35px;
+    }
+
+    .fourSteps-container {
+        max-width: 300px;
+        margin: 25px auto;
+    }
+
+    .fourSteps-container h3 {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .steps-diagram {
+        display: none;
+    }
+
+    .steps-grid {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .fact-step {
+        width: 95%;
+        flex-direction: column;
+        margin-right: 0px;
+        margin-bottom: 25px;
+
+    }
+
+    .fact-step img {
+        margin: 10px 0;
+
+    }
+
+    .fact-step p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+
+    .req-container {
+        max-width: 300px;
+        margin: 25px auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .req-container img {
+        width: 250px;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .req-text {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 15px 0;
+    }
+
+    .req-text h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    } 
+
+    .content p {
+        font-size: 12px;
+    }
+    /*End/Mobile/Service*/
 
 }
-
-
-/*.questions{
-    border: solid 2px #941b80;
-    width: 30%;
-    border-radius: 7px;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
- }
-.Preguntas{
-    background-color: #941b80;
-    height: 12vh;
-
- }
-.Preguntas h1{
-    font-size: 20px;
-    color: white;
-    margin: 3vh 2vh;
-    font-family: 'Montserrat', sans-serif;
- }
-.preguntasFrecuentes{
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto
-}
-.preguntasFrecuentes h4{
-    margin:3vh 2vh;
-    color: rgb(107, 105, 101);
-    font-family: 'Montserrat', sans-serif;
-}
-
-.preguntasFrecuentes::-webkit-scrollbar-thumb{
-    width: 7px;
-    background: #941b80;
-}
-.contenido{
-    width: 50%;
-    
-}
-contenido dinamico 
-.title{
-    margin:3vh 2vh;
-    color: #941b80;
-    font-family: 'Montserrat', sans-serif;
-}
-.parrafo{
-    margin:3vh 2vh;
-    color: rgb(107, 105, 101);
-}
-.divider{
-    margin:3vh 2vh;
-    width: 55%;
-    border: 2px solid #941b80;
-    border-radius: 5px;
-}*/
-
 
 
 
