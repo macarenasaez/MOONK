@@ -499,7 +499,6 @@ header,.header-container{
     justify-content: space-between;
 
 }
-/* END/FAQ-DESKTOP */
 
 /*Start/footer*/
 
@@ -592,7 +591,7 @@ footer .footer-container {
 
 }
 
-.footer-mainLi a {
+.footer-main a {
 
     font-weight: 600 !important;
 
@@ -707,8 +706,6 @@ footer .footer-container {
     
     }
 
-    /* END/MOBILE-HEADER */
-
     /* START/MOBILE-FAQ */
        .bannerMain-faq {
 
@@ -789,8 +786,6 @@ footer .footer-container {
 
     }
 
-    /* END/MOBILE-FAQ */
-
     /* START/MOBILE/FOOTER */
 
     footer .footer-container {
@@ -813,8 +808,6 @@ footer .footer-container {
         margin-right: 0;
 
     }
-
-    /* END/MOBILE-FOOTER */
 
      /* START/MOBILE/SERVICE*/
 
@@ -919,7 +912,6 @@ footer .footer-container {
     .content p {
         font-size: 12px;
     }
-    /*End/Mobile/Service*/
 
 }
 
